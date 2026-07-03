@@ -186,11 +186,11 @@ h2{font-family:'Familjen Grotesk',sans-serif;font-weight:700;font-size:clamp(30p
 .role-card li i{color:var(--text)}
 
 /* ---------- Outreach ---------- */
-.media-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:48px}
-.media-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;padding:24px;text-decoration:none;background:var(--panel-bg);transition:.25s;min-height:180px}
-.media-card:hover{border-color:var(--accent);transform:translateY(-4px);background:var(--panel-bg-hover)}
+.outreach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:48px}
+.outreach-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;padding:24px;text-decoration:none;background:var(--panel-bg);transition:.25s;min-height:180px}
+.outreach-card:hover{border-color:var(--accent);transform:translateY(-4px);background:var(--panel-bg-hover)}
 .m-src{font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
-.media-card h3{font-family:'Familjen Grotesk',sans-serif;font-size:19px;font-weight:600;line-height:1.25;color:var(--text);flex:1}
+.outreach-card h3{font-family:'Familjen Grotesk',sans-serif;font-size:19px;font-weight:600;line-height:1.25;color:var(--text);flex:1}
 .m-go{font-family:'Spline Sans Mono',monospace;font-size:13px;color:var(--accent2);margin-top:18px}
 .beyond{border:1px solid var(--line);border-radius:12px;padding:28px;background:var(--panel-bg)}
 .beyond h3{font-family:'Spline Sans Mono',monospace;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
