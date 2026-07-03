@@ -143,7 +143,7 @@ h2{font-family:'Familjen Grotesk',sans-serif;font-weight:700;font-size:clamp(30p
 .tl-org{color:var(--accent2);font-size:15px;margin-bottom:10px}
 .tl-body p:last-child{color:var(--muted);max-width:70ch}
 
-/* ---------- Publications ---------- */
+/* ---------- Papers ---------- */
 .pubs{list-style:none;counter-reset:none}
 .pubs li{display:grid;grid-template-columns:44px 1fr;gap:16px;padding:16px 0;border-top:1px solid var(--line);align-items:baseline;transition:.2s}
 .pubs li:hover{background:rgba(47,214,160,.03)}
@@ -185,7 +185,7 @@ h2{font-family:'Familjen Grotesk',sans-serif;font-weight:700;font-size:clamp(30p
 .role-card li::before{content:'';position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--accent)}
 .role-card li i{color:var(--text)}
 
-/* ---------- Media ---------- */
+/* ---------- Outreach ---------- */
 .media-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:48px}
 .media-card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:12px;padding:24px;text-decoration:none;background:var(--panel-bg);transition:.25s;min-height:180px}
 .media-card:hover{border-color:var(--accent);transform:translateY(-4px);background:var(--panel-bg-hover)}
