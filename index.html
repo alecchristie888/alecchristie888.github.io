@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alec Christie — AI, Evidence & Conservation</title>
+<meta name="description" content="Dr Alec Christie — Imperial College Research Fellow reshaping how AI and biodiversity evidence interact to improve conservation decision-making.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+(function(){try{var s=window['local'+'Storage'];var t=s?s.getItem('theme'):null;if(!t)t=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';if(t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}})();
+</script>
+</head>
+<body>
+<canvas id="bg"></canvas>
+
+<header id="nav">
+  <a href="#top" class="brand">
+    <svg viewBox="0 0 40 40" width="24" height="24" fill="none" aria-hidden="true">
+      <path d="M20 4 C11 12, 8 22, 20 36 C32 22, 29 12, 20 4 Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M20 12 L20 32 M20 20 L13 15 M20 24 L27 19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+    </svg>
+    Alec Christie<b>.</b>
+  </a>
+  <div class="nav-right">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#grants">Grants</a>
+      <a href="#talks">Talks</a>
+      <a href="#roles">Roles</a>
+      <a href="#media">Media</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2 12h2M20 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    </button>
+  </div>
+  <button id="menu-btn" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<div id="mobile-menu">
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#grants">Grants</a>
+  <a href="#talks">Talks</a>
+  <a href="#roles">Roles</a>
+  <a href="#media">Media</a>
+  <button class="theme-toggle" id="theme-toggle-m" aria-label="Toggle light and dark mode">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M2 12h2M20 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+  </button>
+</div>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Evidence · AI · Conservation</p>
+    <h1>Alec <span class="grad">Christie</span></h1>
+    <p class="lead">Reshaping how <b>AI and biodiversity evidence</b> interact to improve conservation decision-making.</p>
+    <p class="role">Imperial College Research Fellow</p>
+    <p class="affil">Centre for Environmental Policy · Imperial College London</p>
+    <div class="chips">
+      <a class="chip" href="mailto:a.christie@imperial.ac.uk">Email</a>
+      <a class="chip" href="https://scholar.google.com/citations?hl=en&user=t67U7SQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="chip" href="https://orcid.org/0000-0002-8465-8410" target="_blank" rel="noopener">ORCID</a>
+      <a class="chip" href="https://profiles.imperial.ac.uk/a.christie" target="_blank" rel="noopener">Imperial Profile</a>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span>scroll</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="section-head">
+    <span class="sec-num">01</span>
+    <h2>About</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-photo">
+      <img src="assets/headshot.jpg" alt="Alec Christie" loading="lazy">
+    </div>
+    <div class="about-text">
+      <p class="big">I am an independent research fellow reshaping how <b>Artificial Intelligence and biodiversity evidence</b> interact to improve conservation decision-making.</p>
+      <p>I have a strong track record of leading interdisciplinary projects, securing competitive funding, and engaging with networks of policymakers and practitioners. My work spans AI evaluation and benchmarking, evidence synthesis, and the design of decision-support tools that put reliable evidence into the hands of conservation practitioners and policymakers.</p>
+      <p>I created the <b>Conservation Evidence AI</b> project, developing AI-assisted pipelines that reduce manual evidence-review times from years to weeks, and I am co-developing a <b>Conservation Evidence Co-pilot</b> to make evidence more accessible to end-users. I was nominated as one of ten Imperial applicants to the UKRI Future Leaders Fellowship.</p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num">2,472</span><span class="stat-label">Citations</span></div>
+        <div class="stat"><span class="stat-num">45</span><span class="stat-label">Peer-reviewed papers</span></div>
+        <div class="stat"><span class="stat-num">82</span><span class="stat-label">Policy citations</span></div>
+        <div class="stat"><span class="stat-num">£1.07M</span><span class="stat-label">Funding as PI</span></div>
+      </div>
+      <div class="edu">
+        <h3>Education</h3>
+        <ul>
+          <li><b>PG Certificate, Teaching &amp; Learning in Higher Education</b> — University of Cambridge (2023)</li>
+          <li><b>PhD Zoology</b> — University of Cambridge (2021) · Biases &amp; consistencies in the evidence for conservation</li>
+          <li><b>BSc (Hons) Marine Biology</b> — University of St Andrews, First Class (2017)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH / POSITIONS -->
+<section id="research" class="section">
+  <div class="section-head">
+    <span class="sec-num">02</span>
+    <h2>Research &amp; Positions</h2>
+  </div>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-when">2024 — present</div>
+      <div class="tl-body">
+        <h3>Imperial College Research Fellow</h3>
+        <p class="tl-org">Centre for Environmental Policy, Imperial College London</p>
+        <p>Awarded a highly competitive fellowship to lead independent research on using AI to improve evidence use in conservation. Leading evaluations of how Large Language Models answer practitioners' questions on conservation interventions, and co-developing a Conservation Evidence Co-pilot. Co-lead for the People &amp; Nature research cluster. Nominated as one of 10 Imperial applicants to the UKRI Future Leaders Fellowship.</p>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">2021 — 2024</div>
+      <div class="tl-body">
+        <h3>Henslow Research Fellow</h3>
+        <p class="tl-org">Downing College, University of Cambridge</p>
+        <p>Established an independent project on combining diverse evidence and using AI to accelerate evidence synthesis. Creator of the Conservation Evidence AI project, securing several major grants and building an AI-assisted pipeline that identifies relevant studies and reduces manual review from years to weeks. Co-designed the Evidence-to-Decision tool with 15+ Evidence Champion organisations.</p>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">2021</div>
+      <div class="tl-body">
+        <h3>Postdoctoral Research Associate</h3>
+        <p class="tl-org">BioRISC, University of Cambridge</p>
+        <p>Developed dynamic meta-analysis methods for interactively presenting evidence via a web-based decision-support tool that informed the Chinese Government's invasive plant control strategy.</p>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-when">Ongoing</div>
+      <div class="tl-body">
+        <h3>Further roles</h3>
+        <p class="tl-org">Cambridge · Open University</p>
+        <p>Visiting Researcher, Conservation Evidence (Cambridge); Associate Lecturer, Ecosystems (S397), The Open University; Bye-Fellow, Downing College. Co-convened Imperial's MSc Conservation Science &amp; Practice (2022–24).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PUBLICATIONS -->
+<section id="publications" class="section">
+  <div class="section-head">
+    <span class="sec-num">03</span>
+    <h2>Selected Publications</h2>
+  </div>
+  <p class="sec-intro">A selection of 25 papers. <span class="star">*</span> denotes lead, senior, or corresponding author. Full list on <a href="https://scholar.google.com/citations?hl=en&user=t67U7SQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
+  <ol class="pubs" id="pub-list">
+    <li data-lead="1"><span class="pnum">25</span><span>Christie, A.P. et al. <b>Temporal and spatial trends in the study designs used to understand what works in conservation.</b> <i>J Appl Ecol</i>, Accepted (2026).</span></li>
+    <li data-lead="1"><span class="pnum">24</span><span>Taylor, N.T. et al. <b>On the evidence for evidence-based conservation.</b> <i>Ecol Solutions Evidence</i> 7, e70255 (2026).</span></li>
+    <li data-lead="1"><span class="pnum">23</span><span>Christie, A.P. et al. <b>Evidence-based practice is spreading but still limited in conservation and environmental management.</b> <i>Ecol Solutions Evidence</i> 7, e70235 (2026).</span></li>
+    <li data-lead="1"><span class="pnum">22</span><span>González-Suárez, M. et al. <b>Conservation evidence is biased but can support decision-making for prevalent and severe threats in tetrapods.</b> <i>J Appl Ecol</i> 63, e70337 (2026).</span></li>
+    <li><span class="pnum">21</span><span>Webb, J.A. et al. <b>A Standardized Definition of Rapid Evidence Assessment for Environmental Applications.</b> <i>Conserv Lett</i> 19, e70005 (2026).</span></li>
+    <li data-lead="1"><span class="pnum">20</span><span>Jaffer, S. et al. <b>AI-assisted Living Evidence Databases for Conservation Science.</b> <i>Cambridge Open Engage</i> (2025).</span></li>
+    <li data-lead="1"><span class="pnum">19</span><span>Anjan, A. et al. <b>The spatial distribution of tests of conservation interventions does not align with global conservation needs.</b> <i>Biol Conserv</i> 309, 111313 (2025).</span></li>
+    <li><span class="pnum">18</span><span>Madhavapeddy, A. et al. <b>Steps towards an Ecology for the Internet.</b> In Proceedings of the sixth decennial Aarhus conference (ACM, 2025).</span></li>
+    <li><span class="pnum">17</span><span>Reynolds, S.A. et al. <b>Will AI speed up literature reviews or derail them entirely?</b> <i>Nature</i> 643, 329–331 (2025).</span></li>
+    <li data-lead="1"><span class="pnum">16</span><span>Christie, A.P. et al. <b>The impact and return-on-investment of evidence-based practice in conservation and environmental management.</b> <i>PLOS ONE</i> 20, e0326521 (2025).</span></li>
+    <li data-lead="1"><span class="pnum">15</span><span>Iyer, R. et al. <b>Careful design of Large Language Model pipelines enables expert-level retrieval of evidence-based information.</b> <i>PLOS ONE</i> 20, e0323563 (2025).</span></li>
+    <li data-lead="1"><span class="pnum">14</span><span>Speight, O. et al. <b>Exploring gaps, biases, and research priorities in the evidence for reptile conservation actions.</b> <i>Conserv Biol</i> 39, e70073 (2025).</span></li>
+    <li data-lead="1"><span class="pnum">13</span><span>Hordern, E. et al. <b>Prioritizing future evidence needs for marine and freshwater mammal conservation action.</b> <i>Anim Conserv</i> 28, 542–552 (2025).</span></li>
+    <li><span class="pnum">12</span><span>Martin, P.A. et al. <b>Flexible synthesis can deliver more tailored and timely evidence for research and policy.</b> <i>PNAS</i> 120, e2221911120 (2023).</span></li>
+    <li data-lead="1"><span class="pnum">11</span><span>Christie, A.P. et al. <b>Assessing diverse evidence to improve conservation decision-making.</b> <i>Conserv Sci Pract</i> 5, e13024 (2023).</span></li>
+    <li><span class="pnum">10</span><span>Smith, R.K. et al. <b>Co-designing a toolkit for evidence-based decision making in conservation.</b> <i>Ecol Solutions Evidence</i> 4, e12269 (2023).</span></li>
+    <li data-lead="1"><span class="pnum">9</span><span>Miller, J. et al. <b>Parachute conservation: Investigating trends in international research.</b> <i>Conserv Lett</i> 16, e12947 (2023).</span></li>
+    <li data-lead="1"><span class="pnum">8</span><span>Christie, A.P. et al. <b>A practical conservation tool to combine diverse types of evidence for transparent evidence-based decision-making.</b> <i>Conserv Sci Pract</i> 4, e579 (2022).</span></li>
+    <li data-lead="1"><span class="pnum">7</span><span>Christie, A.P. et al. <b>Reducing publication delay to improve the efficiency and impact of conservation science.</b> <i>PeerJ</i> 9, e12245 (2021).</span></li>
+    <li><span class="pnum">6</span><span>Amano, T. et al. <b>Tapping into non-English-language science for the conservation of global biodiversity.</b> <i>PLOS Biol</i> 19, e3001296 (2021).</span></li>
+    <li><span class="pnum">5</span><span>Shackelford, G.E. et al. <b>Dynamic meta-analysis: a method of using global evidence for local decision making.</b> <i>BMC Biol</i> 19, 33 (2021).</span></li>
+    <li data-lead="1"><span class="pnum">4</span><span>Christie, A.P. et al. <b>The challenge of biased evidence in conservation.</b> <i>Conserv Biol</i> 35, 249–262 (2021).</span></li>
+    <li data-lead="1"><span class="pnum">3</span><span>Christie, A.P. et al. <b>Quantifying and addressing the prevalence and bias of study designs in the environmental and social sciences.</b> <i>Nat Commun</i> 11, 6377 (2020).</span></li>
+    <li data-lead="1"><span class="pnum">2</span><span>Christie, A.P. et al. <b>Poor availability of context-specific evidence hampers decision-making in conservation.</b> <i>Biol Conserv</i> 248, 108666 (2020).</span></li>
+    <li data-lead="1"><span class="pnum">1</span><span>Christie, A.P. et al. <b>Simple study designs in ecology produce inaccurate estimates of biodiversity responses.</b> <i>J Appl Ecol</i> 56, 2742–2754 (2019).</span></li>
+  </ol>
+</section>
+
+<!-- GRANTS -->
+<section id="grants" class="section">
+  <div class="section-head">
+    <span class="sec-num">04</span>
+    <h2>Grants &amp; Contracts</h2>
+  </div>
+  <p class="sec-intro">Total funding as PI: <b>£1,068,000</b> · as Co-I: <b>£155,000</b>.</p>
+  <div class="grants">
+    <div class="grant"><div class="g-year">2025</div><div class="g-body"><h3>AI@Cam AI-DEAS Sprint <span class="g-role coi">Co-I</span></h3><p>Conservation Co-pilot to improve access to evidence, with Cambridge Centre for Science and Policy.</p><span class="g-amt">£25,000 · 1 yr</span></div></div>
+    <div class="grant"><div class="g-year">2024</div><div class="g-body"><h3>Imperial College Research Fellowship <span class="g-role pi">PI</span></h3><p>AI to mobilise global and local knowledge for better conservation decisions.</p><span class="g-amt">£250,000 · 4 yr</span></div></div>
+    <div class="grant"><div class="g-year">2024</div><div class="g-body"><h3>Fondation Hans Wilsdorf <span class="g-role coi">Co-I</span></h3><p>AI-assisted pipelines and Co-pilot tools for Conservation Evidence.</p><span class="g-amt">£450,000 · 2 yr</span></div></div>
+    <div class="grant"><div class="g-year">2024</div><div class="g-body"><h3>AI@Cam AI-DEAS Seed <span class="g-role pi">PI</span></h3><p>AI for Climate &amp; Nature: LLM pipelines to collate conservation evidence.</p><span class="g-amt">£150,000 · 2 yr</span></div></div>
+    <div class="grant"><div class="g-year">2024</div><div class="g-body"><h3>IRC Small Grants for Impact <span class="g-role pi">PI</span></h3><p>Two workshops: One Health Surveillance &amp; AI; Embedding Conservation Evidence Use.</p><span class="g-amt">£6,000 · 3 mo</span></div></div>
+    <div class="grant"><div class="g-year">2024</div><div class="g-body"><h3>CCI Collaborative Fund <span class="g-role coi">Co-I</span></h3><p>Prototype tool to standardise outcomes of invasive species interventions globally.</p><span class="g-amt">£70,000 · 1 yr</span></div></div>
+    <div class="grant"><div class="g-year">2022</div><div class="g-body"><h3>CEFAS OneFood Project <span class="g-role coi">Co-I</span></h3><p>Scoping climate risk assessment methods for food systems.</p><span class="g-amt">£50,000 · 9 mo</span></div></div>
+    <div class="grant"><div class="g-year">2022</div><div class="g-body"><h3>EPSRC Small Grants <span class="g-role coi">Co-I</span></h3><p>App to collate local knowledge on climate mitigation actions in Bangladesh.</p><span class="g-amt">£10,000 · 6 mo</span></div></div>
+    <div class="grant"><div class="g-year">2021</div><div class="g-body"><h3>Henslow Junior Research Fellowship <span class="g-role pi">PI</span></h3><p>Assessing Global Evidence for Local Conservation Decisions.</p><span class="g-amt">£110,000 · 3 yr</span></div></div>
+    <div class="grant"><div class="g-year">2017</div><div class="g-body"><h3>NERC ESS DTP Studentship <span class="g-role pi">PI</span></h3><p>Fully funded PhD studentship on evidence gaps and biases in conservation.</p><span class="g-amt">£59,000 · 3.5 yr</span></div></div>
+    <div class="grant"><div class="g-year">2017</div><div class="g-body"><h3>Vice-Chancellor's Award, Cambridge Trust <span class="g-role pi">PI</span></h3><p>Honorary full PhD scholarship for outstanding undergraduate performance.</p><span class="g-amt">£42,000 · 3 yr</span></div></div>
+  </div>
+</section>
+
+<!-- TALKS -->
+<section id="talks" class="section">
+  <div class="section-head">
+    <span class="sec-num">05</span>
+    <h2>Invited Talks &amp; Panels</h2>
+  </div>
+  <div class="talks-cols">
+    <div class="talks-col">
+      <h3 class="talks-head">AI &amp; Biodiversity Conservation</h3>
+      <ul class="talks">
+        <li><b>UK Government &amp; Civil Service</b> — DSIT, Government Office for Science, Civil Service STAR Network, Houses of Parliament <span class="t-meta">2025–26</span></li>
+        <li><b>Nesta PolicyOS workshop</b> — Harnessing AI to Improve Policymaking, London, 50+ <span class="t-meta">2025</span></li>
+        <li><b>EurIPS AICC Workshop</b> — AI for Climate &amp; Conservation, Copenhagen, 200+ <span class="t-meta">2025</span></li>
+        <li><b>Entente CordIAle workshop</b> — Anglo-French AI collaboration, Cambridge, 50+ <span class="t-meta">2025</span></li>
+        <li><b>Conservation Optimism Summit</b> — Oxford, 100+ <span class="t-meta">2024</span></li>
+        <li><b>WildLabs Conservation Tech Variety Hour</b> — online, 40+ <span class="t-meta">2024</span></li>
+        <li><b>AI for Science Summit</b> — Cambridge, 50+ <span class="t-meta">2023</span></li>
+      </ul>
+    </div>
+    <div class="talks-col">
+      <h3 class="talks-head">Evidence-based Conservation &amp; Policy</h3>
+      <ul class="talks">
+        <li><b>UK POST Policy Brief roundtable</b> — Evidence for Nature Recovery <span class="t-meta">2026</span></li>
+        <li><b>Effectiveness Revolution in Conservation Summit</b> — Cambridge, 100+ <span class="t-meta">2024</span></li>
+        <li><b>Endangered Landscapes Programme</b> — impact evaluation workshop, online, 20+ <span class="t-meta">2022</span></li>
+        <li><b>Wildlife Trusts Evidence Emergency workshop</b> — online, 50+ <span class="t-meta">2021</span></li>
+        <li><b>International Congress on Conservation Biology</b> — Future of Conservation symposium panel <span class="t-meta">2021</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ROLES / ESTEEM -->
+<section id="roles" class="section">
+  <div class="section-head">
+    <span class="sec-num">06</span>
+    <h2>Roles, Service &amp; Esteem</h2>
+  </div>
+  <div class="roles-grid">
+    <div class="role-card">
+      <h3>Editorial</h3>
+      <ul>
+        <li>Associate Editor &amp; Research Highlights Editor, <i>Journal of Applied Ecology</i> (2026–)</li>
+        <li>Peer-reviewer for 12 journals (25+ papers, 2021–)</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <h3>Grant Review</h3>
+      <ul>
+        <li>NERC Peer Review College (2026–)</li>
+        <li>British Ecological Society Review College (2025–)</li>
+        <li>Daphne Jackson Trust Fellowships (2024–)</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <h3>Expert &amp; Advisory</h3>
+      <ul>
+        <li>EKLIPSE Expert Working Group — Biodiversity &amp; Pandemics report for the EU (2022–23)</li>
+        <li>Conservation Evidence Advisory Board — Coral Conservation Synopsis (2022–24)</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <h3>Awards</h3>
+      <ul>
+        <li>Cambridge VC Award for Research Impact &amp; Engagement (2023)</li>
+        <li>Best Horizon Scan Talk, Cambridge Science &amp; Policy Forum (2021)</li>
+        <li>2nd place, Doctoral Researcher Awards (2021)</li>
+        <li>25+ doctoral &amp; undergraduate prizes (2013–20)</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <h3>Authorship</h3>
+      <ul>
+        <li>Co-author of four chapters in <i>Transforming Conservation: A Practical Guide to Evidence &amp; Decision Making</i> (2022) — Highly Commended, CIEEM Best Practice in Knowledge Sharing Award</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <h3>Teaching</h3>
+      <ul>
+        <li>Co-convened Imperial's MSc Conservation Science &amp; Practice (2022–24)</li>
+        <li>Supervised 8 MSc &amp; 13 undergraduate projects; helped 6 students publish peer-reviewed papers</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- MEDIA -->
+<section id="media" class="section">
+  <div class="section-head">
+    <span class="sec-num">07</span>
+    <h2>Media &amp; Writing</h2>
+  </div>
+  <div class="media-grid">
+    <a class="media-card" href="https://www.imperial.ac.uk/news/265077/ai-evidence-pipelines-could-offer-reliable" target="_blank" rel="noopener">
+      <span class="m-src">Imperial News</span>
+      <h3>AI evidence pipelines could offer reliable support for conservation decisions</h3>
+      <span class="m-go">Read →</span>
+    </a>
+    <a class="media-card" href="https://blogs.imperial.ac.uk/centre-for-environmental-policy/2025/05/12/ai-assistants-to-transform-conservation-responsibly-supercharging-evidence-into-action/" target="_blank" rel="noopener">
+      <span class="m-src">Imperial CEP Blog</span>
+      <h3>AI assistants to transform conservation responsibly: supercharging evidence into action</h3>
+      <span class="m-go">Read →</span>
+    </a>
+    <a class="media-card" href="https://www.nature.com/articles/d41586-025-02069-w" target="_blank" rel="noopener">
+      <span class="m-src">Nature</span>
+      <h3>Will AI speed up literature reviews or derail them entirely?</h3>
+      <span class="m-go">Read →</span>
+    </a>
+  </div>
+  <div class="beyond">
+    <h3>Beyond research</h3>
+    <p>Bellringer, wildlife photographer and gardener. Keen on hiking, orienteering, running, kayaking and diving — and once appeared on ITV's <i>The Chase</i>.</p>
+  </div>
+</section>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact">
+  <div class="foot-inner">
+    <p class="foot-eyebrow">Get in touch</p>
+    <h2>Let's talk about evidence, AI &amp; conservation.</h2>
+    <div class="chips">
+      <a class="chip" href="mailto:a.christie@imperial.ac.uk">a.christie@imperial.ac.uk</a>
+      <a class="chip" href="https://scholar.google.com/citations?hl=en&user=t67U7SQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="chip" href="https://orcid.org/0000-0002-8465-8410" target="_blank" rel="noopener">ORCID</a>
+      <a class="chip" href="https://profiles.imperial.ac.uk/a.christie" target="_blank" rel="noopener">Imperial</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Alec Christie · Centre for Environmental Policy, Imperial College London</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
