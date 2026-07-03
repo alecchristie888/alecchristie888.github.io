@@ -231,3 +231,28 @@ h2{font-family:'Familjen Grotesk',sans-serif;font-weight:700;font-size:clamp(30p
   .reveal{opacity:1;transform:none;transition:none}
   html{scroll-behavior:auto}
 }
+
+/* ---------- Photography ---------- */
+.photo-intro{max-width:640px;color:var(--muted);font-size:16px;line-height:1.7;margin:0 0 34px}
+.photo-grid{columns:3;column-gap:18px}
+.photo{break-inside:avoid;margin:0 0 18px;position:relative;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--bg2);cursor:zoom-in;display:block}
+.photo img{display:block;width:100%;height:auto;transition:transform .6s cubic-bezier(.22,1,.36,1),filter .4s}
+.photo:hover img{transform:scale(1.04)}
+.photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#fff;background:linear-gradient(to top,rgba(4,14,10,.82),rgba(4,14,10,0));opacity:0;transform:translateY(6px);transition:opacity .35s,transform .35s}
+.photo:hover figcaption,.photo:focus-within figcaption{opacity:1;transform:none}
+@media(max-width:860px){.photo-grid{columns:2}}
+@media(max-width:480px){.photo-grid{columns:1}}
+
+/* ---------- Lightbox ---------- */
+#lightbox{position:fixed;inset:0;z-index:1000;display:none;align-items:center;justify-content:center;background:rgba(3,11,8,.94);padding:24px}
+#lightbox.open{display:flex}
+#lb-figure{margin:0;max-width:92vw;max-height:90vh;display:flex;flex-direction:column;align-items:center;gap:14px}
+#lb-img{max-width:92vw;max-height:80vh;width:auto;height:auto;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+#lb-cap{font-family:'Spline Sans Mono',monospace;font-size:13px;letter-spacing:.03em;color:#cfe6da;text-align:center;max-width:640px}
+#lightbox button{position:absolute;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;cursor:pointer;border-radius:50%;transition:background .2s,transform .2s}
+#lightbox button:hover{background:rgba(47,214,160,.25);transform:scale(1.08)}
+#lb-close{top:22px;right:22px;width:46px;height:46px;font-size:26px;line-height:1}
+#lb-prev,#lb-next{top:50%;transform:translateY(-50%);width:52px;height:52px;font-size:30px;line-height:1}
+#lb-prev{left:22px}#lb-next{right:22px}
+#lb-prev:hover,#lb-next:hover{transform:translateY(-50%) scale(1.08)}
+@media(max-width:860px){#lb-prev,#lb-next{width:44px;height:44px;font-size:24px}}
